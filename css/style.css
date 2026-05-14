@@ -1,36 +1,46 @@
 body{
 
-    background: linear-gradient(to bottom, #000000, #0f172a, #240046);
+    background: linear-gradient(to bottom, #050505, #101010, #1a1a1a, #2b0000);
 
-    color: white;
+    color: #eeeeee;
 
     font-family: Arial;
 
     margin: 0;
 }
 
+/* ENCABEZADO */
+
 .encabezado{
 
     text-align: center;
 
-    padding: 35px;
+    padding: 50px;
+
+    background-color: #070707;
+
+    border-bottom: 4px solid #b30000;
 }
 
 .encabezado h1{
 
     color: white;
 
-    font-size: 50px;
+    font-size: 58px;
 
-    text-shadow: 4px 4px 8px gray;
+    text-shadow: 4px 4px 8px #8b0000;
+
+    margin-bottom: 10px;
 }
 
 .encabezado p{
 
-    color: #d4d4d4;
+    color: #d6d6d6;
 
     font-size: 18px;
 }
+
+/* MENÚ */
 
 .menu{
 
@@ -38,11 +48,9 @@ body{
 
     padding: 18px;
 
-    border-top: 2px solid #3b82f6;
+    background-color: #101010;
 
-    border-bottom: 2px solid #8b5cf6;
-
-    background-color: #09090b;
+    border-bottom: 2px solid #8b0000;
 }
 
 .menu a{
@@ -51,139 +59,346 @@ body{
 
     text-decoration: none;
 
-    margin: 10px;
+    margin: 8px;
 
-    padding: 10px;
+    padding: 11px 14px;
 
-    border: 1px solid #8b5cf6;
+    border: 1px solid #8b0000;
 
-    background-color: #111827;
+    background-color: #1c1c1c;
 
-    border-radius: 8px;
+    border-radius: 6px;
+
+    box-shadow: 0px 0px 6px black;
 }
+
+/* CONTENIDO */
 
 .contenido{
 
+    padding: 35px;
+}
+
+/* SECCIÓN PRINCIPAL */
+
+.seccion{
+
+    margin: 35px;
+
+    padding: 42px;
+
+    background-color: #151515;
+
+    border-left: 7px solid #b30000;
+
+    border-top: 1px solid #333333;
+
+    border-right: 1px solid #333333;
+
+    border-bottom: 1px solid #333333;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 14px black;
+}
+
+.seccion h2{
+
+    color: #ff3333;
+
+    font-size: 34px;
+
     text-align: center;
 
-    padding: 30px;
+    text-shadow: 3px 3px 6px black;
+
+    margin-top: 0;
+
+    margin-bottom: 25px;
 }
 
-.caja{
+.seccion h3{
 
-    margin: 25px;
-
-    padding: 25px;
-
-    border: 2px solid #3b82f6;
-
-    background-color: #111827;
-
-    border-radius: 12px;
-
-    box-shadow: 0px 0px 12px black;
-}
-
-.caja h2{
-
-    color: #c084fc;
-
-    font-size: 30px;
-}
-
-.caja h3{
-
-    color: #93c5fd;
+    color: #ffffff;
 
     font-size: 24px;
+
+    margin-top: 35px;
+
+    padding-bottom: 8px;
+
+    border-bottom: 1px solid #4d4d4d;
 }
 
-.caja p{
+.seccion p{
+
+    color: #e6e6e6;
 
     font-size: 18px;
+
+    line-height: 31px;
+
+    text-align: justify;
+}
+
+/* FOTO PERSONAL */
+
+.foto-perfil{
+
+    width: 330px;
+
+    height: auto;
+
+    border-radius: 50%;
+
+    border: 5px solid #b30000;
+
+    box-shadow: 0px 0px 20px black;
+
+    display: block;
+
+    margin: 25px auto;
+}
+
+/* HABILIDADES */
+
+.habilidad{
+
+    margin-top: 25px;
+
+    padding: 20px;
+
+    background-color: #1d1d1d;
+
+    border-left: 5px solid #b30000;
+
+    border-top: 1px solid #3d3d3d;
+
+    border-right: 1px solid #3d3d3d;
+
+    border-bottom: 1px solid #3d3d3d;
+
+    border-radius: 8px;
+
+    box-shadow: 0px 0px 10px black;
+}
+
+.habilidad h3{
+
+    color: #ffffff;
+
+    border-bottom: none;
+
+    margin-top: 0;
+
+    padding-bottom: 0;
+}
+
+.habilidad p{
+
+    color: #e6e6e6;
+
+    font-size: 17px;
 
     line-height: 28px;
 }
 
-.materia{
+.barra{
 
-    display: block;
+    height: 22px;
 
-    margin: 15px;
+    background-color: #3a3a3a;
 
-    padding: 15px;
+    border: 1px solid #5a5a5a;
 
-    border: 1px solid #8b5cf6;
+    border-radius: 20px;
 
-    background-color: #0f172a;
+    margin-top: 12px;
 
-    color: white;
-
-    border-radius: 8px;
-
-    text-decoration: none;
+    box-shadow: 0px 0px 6px black;
 }
+
+.progreso{
+
+    height: 22px;
+
+    background: linear-gradient(to right, #7a0000, #ff1e1e, #ffffff);
+
+    border-radius: 20px;
+}
+
+/* PORCENTAJES */
+
+.p10{
+
+    width: 10%;
+}
+
+.p30{
+
+    width: 30%;
+}
+
+.p35{
+
+    width: 35%;
+}
+
+.p38{
+
+    width: 38%;
+}
+
+.p40{
+
+    width: 40%;
+}
+
+.p42{
+
+    width: 42%;
+}
+
+.p45{
+
+    width: 45%;
+}
+
+.p50{
+
+    width: 50%;
+}
+
+.p55{
+
+    width: 55%;
+}
+
+.p58{
+
+    width: 58%;
+}
+
+.p60{
+
+    width: 60%;
+}
+
+.p70{
+
+    width: 70%;
+}
+
+/* IMÁGENES */
 
 .imagenes{
 
     text-align: center;
 
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .imagenes img{
 
-    width: 500px;
+    width: 520px;
 
-    height: 300px;
+    height: 310px;
 
     margin: 15px;
 
-    border: 2px solid #8b5cf6;
+    border: 3px solid #8b0000;
 
-    border-radius: 10px;
+    border-radius: 8px;
 
-    box-shadow: 0px 0px 12px black;
+    box-shadow: 0px 0px 14px black;
+
+    background-color: #1c1c1c;
 }
+
+/* VIDEOS */
 
 .video{
 
-    margin-top: 20px;
+    margin-top: 25px;
 
     text-align: center;
 }
 
 .video iframe{
 
-    width: 700px;
+    width: 720px;
 
-    height: 400px;
+    height: 405px;
 
-    border: 2px solid #3b82f6;
+    border: 3px solid #8b0000;
 
-    border-radius: 10px;
+    border-radius: 8px;
 
-    box-shadow: 0px 0px 12px black;
+    box-shadow: 0px 0px 14px black;
+
+    background-color: #1c1c1c;
 }
 
-.lista{
-
-    text-align: left;
-
-    margin: 20px;
-
-    line-height: 28px;
-}
+/* PROYECTOS DE SISTEMAS */
 
 .proyecto-sistemas{
 
-    margin: 25px;
+    margin-top: 30px;
 
-    padding: 20px;
+    padding: 28px;
 
-    border: 1px solid #8b5cf6;
+    background-color: #1d1d1d;
 
-    background-color: #0f172a;
+    border-left: 5px solid #b30000;
 
-    border-radius: 10px;
+    border-top: 1px solid #3d3d3d;
+
+    border-right: 1px solid #3d3d3d;
+
+    border-bottom: 1px solid #3d3d3d;
+
+    border-radius: 8px;
+
+    box-shadow: 0px 0px 10px black;
+}
+
+.proyecto-sistemas h3{
+
+    color: #ffffff;
+
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.proyecto-sistemas p{
+
+    color: #e6e6e6;
+}
+
+/* ENLACES DE MATERIAS */
+
+.materia{
+
+    display: block;
+
+    margin: 14px;
+
+    padding: 16px;
+
+    border-left: 5px solid #b30000;
+
+    border-top: 1px solid #3d3d3d;
+
+    border-right: 1px solid #3d3d3d;
+
+    border-bottom: 1px solid #3d3d3d;
+
+    background-color: #1d1d1d;
+
+    color: white;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    box-shadow: 0px 0px 8px black;
 }
